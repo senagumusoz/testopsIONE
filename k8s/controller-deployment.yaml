@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-controller
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test-controller
+  template:
+    metadata:
+      labels:
+        app: test-controller
+    spec:
+      containers:
+      - name: controller
+        image: senagumgum/testops-insider-selenium:latest
+        imagePullPolicy: IfNotPresent
+        env:
+          - name: SELENIUM_REMOTE_URL
+            value: "http://chrome-service:4444/wd/hub"
+
