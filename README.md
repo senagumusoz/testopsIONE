@@ -11,7 +11,7 @@ Proje hem lokal Kubernetes ortamında hem de AWS EKS üzerinde çalışacak şek
 
 Sistem iki ana parçadan oluşur:
 
-- Testleri çalıştıran bir Test Controller**
+- Testleri çalıştıran bir Test Controller
 - Testlerin çalıştığı Chrome Node’lar
 
 Test Controller test senaryolarını alır ve Selenium üzerinden Chrome Node’lara gönderir.  
