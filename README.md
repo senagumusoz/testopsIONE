@@ -110,14 +110,11 @@ kubectl apply -f k8s/
 kubectl get pods
 kubectl logs job/test-controller
 
--veya AWS EKS üzerinde otomatik olarak
-
- -AWS üzerinde EKS cluster oluşturulur
- -Node group eklenir
- -kubectl erişimi ayarlanır
- -Kubernetes dosyaları deploy edilir
- -Testler çalıştırılır
- 
+## AWS EKS üzerinde otomatik olarak çalıştırma
 aws eks update-kubeconfig --region <region> --name <cluster-name>
 kubectl apply -f k8s/
+
+## Python Script ile Otomatik Çalıştırma
 python3 scripts/deploy.py
+
+
