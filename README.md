@@ -122,4 +122,13 @@ aws eks update-kubeconfig --region <region> --name <cluster-name>
 kubectl apply -f k8s/
 python3 scripts/deploy.py
 
+<img width="1043" height="255" alt="error" src="https://github.com/user-attachments/assets/7c7f7e74-2585-4a75-a65a-465d92ffa1bf" />
+<img width="1256" height="221" alt="error1" src="https://github.com/user-attachments/assets/d9739a81-a924-40df-8233-dfafec75a287" />
+<img width="1198" height="178" alt="solved" src="https://github.com/user-attachments/assets/0d8030c1-d0d9-4c3e-b409-791460e6161f" />
+
+<img width="1895" height="761" alt="eks-node-group" src="https://github.com/user-attachments/assets/ffe87044-099b-4d5f-bc33-625b7f832198" />
+<img width="880" height="172" alt="test-logs-result" src="https://github.com/user-attachments/assets/e8683459-4bbf-4e63-b4c6-f397ce70bed6" />
+<img width="1056" height="273" alt="test-logs" src="https://github.com/user-attachments/assets/be4288fa-9c92-4dc4-ba98-a46dc614329a" />
+<img width="762" height="80" alt="eks-pods" src="https://github.com/user-attachments/assets/89b08231-8c2c-4112-9d55-40456d53e040" />
+<img width="679" height="72" alt="eks-nodes" src="https://github.com/user-attachments/assets/2dbe4d9d-f038-4795-8cf9-b982d4da794b" />
 
