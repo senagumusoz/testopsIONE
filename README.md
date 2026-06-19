@@ -1,4 +1,4 @@
-# TestOps Insider – Selenium Kubernetes Projesi
+# TestOps – Selenium Kubernetes Projesi
 
 Bu projede Selenium testlerini Docker ve Kubernetes kullanarak çalıştırdım.  
 Amaç, testlerin tarayıcıdan bağımsız, ölçeklenebilir ve AWS üzerinde çalışabilir hale getirilmesidir.
